@@ -9,10 +9,16 @@ public class Person {
 
     // Konstruktør uden parameter (default constructor)
     public Person() {
-
     }
 
+    // Get: med return, uden param i (), med variabel
     public double getHojde() {
         return hojde;
     }
+
+    // Set; uden return, med parameter i (), void
+    public void setHojde(double hojde) {
+        this.hojde = hojde;
+    }
+
 }
